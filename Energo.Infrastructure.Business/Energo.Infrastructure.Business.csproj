@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Energo.Domain.Core\Energo.Domain.Core.csproj" />
+    <ProjectReference Include="..\Energo.Domain.Interfaces\Energo.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Energo.Infrastructure.Data\Energo.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>
