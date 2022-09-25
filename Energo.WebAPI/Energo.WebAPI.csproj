@@ -11,9 +11,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Energo.Infrastructure.Business\Energo.Infrastructure.Business.csproj" />
-    <ProjectReference Include="..\Energo.Infrastructure.Data\Energo.Infrastructure.Data.csproj" />
-  </ItemGroup>
-
 </Project>
